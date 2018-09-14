@@ -2,6 +2,7 @@ var HTTPS = require('https');
 var botID = process.env.BOT_ID;
 
 function respond() {
+  console.log("Parsing response.");
   var request = JSON.parse(this.req.chunks[0]),
       botRegex = /Alexa[,\s]+play Despacito/gim;
   console.log(request);
@@ -16,6 +17,7 @@ function respond() {
 }
 
 function postMessage() {
+  console.log("Posting message");
   var botResponse, options, body, botReq;
   botResponse = "ɴᴏᴡ ᴘʟᴀʏɪɴɢ: Despacito\n" +
       "───────────────⚪────────────────────────────\n" +
