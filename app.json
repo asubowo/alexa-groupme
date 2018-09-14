@@ -1,7 +1,7 @@
 {
-  "name": "Thanos-Bot",
-  "description": "A GroupMe bot that balances groups. As everything should be.",
-  "repository": "https://github.com/asubowo/thanos-bot",
-  "logo": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/5/52/Empire_March_Cover_IW_6_Textless.png/revision/latest?cb=20180325144529",
+  "name": "Alexa Bot",
+  "description": "A bot that posts really stupid crap.",
+  "repository": "https://github.com/asubowo/alexa-groupme",
+  "logo": "https://images-na.ssl-images-amazon.com/images/I/313cnZULc9L._SY355_.png",
   "keywords": []
 }
