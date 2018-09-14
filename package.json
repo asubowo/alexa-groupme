@@ -1,0 +1,26 @@
+{
+  "name": "alexa-groupme",
+  "version": "0.1.0",
+  "description": "A really dumb app that returns ASCII characters when someone asks Alexa to play Despacito in a GroupMe chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "director": ""
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asubowo/alexa-groupme"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "alexa",
+    "despacito"
+  ],
+  "license": "MIT License"
+}
